@@ -95,6 +95,20 @@ grid .item-contenido {
     width: 100%;
     cursor: pointer;
     vertical-align: top;
+    border-radius: 10px;
+}
+
+.grid .item-enlace {
+    display: block;
+    background: #000;
+    padding: 4px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 10px;
+    max-width: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .overlay {
@@ -118,6 +132,7 @@ grid .item-contenido {
 
 .overlay img {
     max-width: 100%;
+    border-radius: 10px;
 }
 
 .overlay .descripcion {
